@@ -1,0 +1,24 @@
+# Core
+fastapi
+uvicorn[standard]
+
+# Binance API
+python-binance
+
+# DB
+sqlalchemy
+psycopg2-binary
+
+# Scheduler
+apscheduler
+
+# Config/env
+python-dotenv
+pydantic-settings
+
+# Kronos (time-series forecasting - local model from Kronos-master/)
+torch>=2.0.0
+einops==0.8.1
+huggingface_hub==0.33.1
+safetensors==0.6.2
+matplotlib==3.9.3

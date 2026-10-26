@@ -1,0 +1,42 @@
+# Environment & Secrets (NEVER commit real keys)
+.env
+.env.*
+!.env.example
+*.env
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+**/venv/
+**/.venv/
+
+# Python cache & bytecode
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+**/trading_bot.db
+
+# Cache and large historical data files
+cache/
+**/cache/
+*.csv
+
+# Logs
+*.log
+logs/
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
